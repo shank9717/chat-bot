@@ -15,7 +15,7 @@ def chat():
         options = webdriver.ChromeOptions()
         chromedriver = "D://chromedriver.exe"
         os.environ["webdriver.chrome.driver"] = chromedriver
-        options.add_argument(r'--user-data-dir=C:\Users\SHASHANK\AppData\Local\Google\Chrome\User Data')
+        options.add_argument(r'--user-data-dir=C:\Users\xxx\AppData\Local\Google\Chrome\User Data')
         browser = webdriver.Chrome(chromedriver,chrome_options=options)
         type(browser)
 
