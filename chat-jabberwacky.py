@@ -90,7 +90,7 @@ def chat():
             else:
                 browser.close()
                 chat()
-            if id == "+91 89716 78401" or id == "Shashank Ullas":
+            if id == your_number or id == your_name:
                 continue
             else:
                 pass
